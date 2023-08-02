@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai3</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        width: 500px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <h1>Nhập số nguyên</h1>
+      <div class="form">
+        <form action="#">
+          <input
+            type="number"
+            placeholder="Nhập số điện"
+            class="input"
+            style="padding-left: 10px; height: 30px"
+          />
+          <button type="submit" class="btn" style="height: 36px">Tính</button>
+        </form>
+        <h2>Cho trước số nguyên n. Tính giá trị biểu thức sau</h2>
+        <h2>S= 1*2 + 2*3 + 3*4 + ... + n*(n+1)</h2>
+        <h3>Số nguyên là: <span class="text">0</span></h3>
+        <h3>Kết quả: <span class="result"></span></h3>
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai1</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        width: 500px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <h1>Nhập số km cần tính</h1>
+      <div class="form">
+        <form action="#">
+          <input
+            type="number"
+            placeholder="Nhập số km"
+            class="input"
+            style="padding-left: 10px; height: 30px"
+          />
+          <button type="submit" class="btn" style="height: 36px">
+            Kiểm tra
+          </button>
+        </form>
+        <h3>Số km của bạn là: <span class="text">0</span></h3>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <tbody class="table">
+            <tr>
+              <td>Số km</td>
+              <td>Giá Tiền</td>
+              <td>Thành tiền</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>

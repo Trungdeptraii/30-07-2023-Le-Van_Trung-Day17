@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai2</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        width: 500px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <h1>Nhập số điện cần tính</h1>
+      <div class="form">
+        <form action="#">
+          <input
+            type="number"
+            placeholder="Nhập số điện"
+            class="input"
+            style="padding-left: 10px; height: 30px"
+          />
+          <button type="submit" class="btn" style="height: 36px">
+            Kiểm tra
+          </button>
+        </form>
+        <h3>Số điện của bạn là: <span class="text">0</span></h3>
+        <h3>Mức tiêu thụ điện của bạn cấp: <span class="cap">0</span></h3>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <tbody class="table">
+            <tr>
+              <td>Cấp</td>
+              <td>Giá Tiền</td>
+              <td>Số điện</td>
+              <td>Thành tiền</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
